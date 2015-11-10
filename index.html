@@ -1,10 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello</title>
-  </head>
-  <body>
-    <p>Isaac's site y'all</p>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+
+	<title>Isaac Lessard</title>
+</head>
+<body>
+
+<div class="wrap">
+	<div class="jumbo main " id="home">
+		<h2 class="hero">IL</h2>
+		<nav class="menu">
+			<a href="#about"><div><p>about</p></div></a>
+			<a href="#future"><div><p>future</p></div></a>
+			<a href="#contact"><div><p>contact</p></div></a>
+		</nav>
+	</div>
+
+	<!-- ABOUT -->
+	<div class="jumbo about" id="about">
+		<h2>Week One</h2>
+		<p>Week one is done! We started the program by diving into the fundamentals. HTML, CSS, Git, and commandLine were what we focused on as we started this cohort. </p>
+		<img src="assets/images/river.jpg">
+		<a href="#home"><div class="btn-high">main</div></a>
+		<a href="#future"><div class="btn-low">next</div></a>
+	</div>
+
+	<!-- FUTURE -->
+	<div class="jumbo future" id="future">
+		<h2>Hopes</h2>
+		<p>content</p>
+		<img src="assets/images/new-york.jpg">
+		<a href="#home"><div class="btn-high">main</div></a>
+		<a href="#contact"><div class="btn-low">next</div></a>
+	</div>
+
+	<!-- CONTACT -->
+	<div class="jumbo contact" id="contact">
+	<a href="#home"><div class="btn-high">main</div></a>
+		<h2>Contact</h2>
+
+		<form action="#" method="post" class="contact-form">
+				<!-- seperates part of form to float to the left -->
+				<div class="formLeft">
+					<label>
+						Name
+						<input type="text" name="name" placeholder="Full Name Required" required>
+					</label>
+					<label>
+						Email
+						<input type="email" name="email" placeholder="Email Address" required>
+					</label>
+					<label>
+						Reason for contact:
+						<select name="Reason" size="3" required>
+							<option value="1">Hire</option>
+							<option value="2">Collaborate</option>
+							<option value="3">Other</option>
+						</select>
+					</label>
+				</div>
+
+					<!-- seperates part of form to float to the right -->
+				<div class="formRight">
+					<label>
+						Message
+						<textarea name="Message" placeholder="Type your message here" required></textarea>
+					</label>
+					<button class="btn-sm">Send</button>
+				</div>
+
+			</form>
+	</div>
+</div>
+<footer>
+<script>
+	document.write("This page created by John N. Last update:" + document.lastModified);
+</script>
+	<!-- Script Tags -->
+	<script src="app.js"></script>
+	<script src="jquery.js"></script>
+</footer>
+</body>
 </html>

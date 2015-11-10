@@ -1,0 +1,179 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+
+.jumbo {
+	width: 100vw;
+	height: 100vh;
+	display: inline-block;
+	font-family: "Futura", Courier, monospace;
+	position: relative;
+}
+
+.btn-high {
+	display: inline-block;
+	position: absolute;
+	top: 45px;
+	right: 45px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 8px;
+}
+
+.btn-low {
+	display: inline-block;
+	position: absolute;
+	top: 375px;
+	right: 45px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 8px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
+}
+
+a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
+}
+
+a:active {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
+}
+
+
+.about {
+	background-color: hsla(240, 100%, 50%, .5);
+}
+
+.about img, .future img {
+	width: 25em;
+	height: 25em;
+	display: inline-block;
+	border-radius: 500px;
+	float: left;
+	position: absolute;
+}
+
+.future {
+	background-color: hsla(25, 100%, 50%, .75);
+}
+
+.contact {
+	background-color: hsla(120, 10%, 50%, .75);
+}
+
+.main {
+	background: url(assets/images/prairie.jpg);
+
+
+}
+
+.hero {
+	margin: 10vh 10vw 0 60vw;
+	text-align: center;
+}
+
+.menu {
+	padding-top: 25vh;
+	text-align: center;
+
+}
+
+.menu div{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding-right: 60px;
+
+}
+
+.menu p {
+	padding-left: 50px;
+}
+
+
+ h2 {
+	font-size: 200px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-bottom: solid 5px;
+
+
+}
+
+
+.hero a {
+	color: white;
+	text-decoration:none;
+}
+
+
+/*
+====================
+FORM
+====================
+*/
+
+
+input, select, textarea {
+	font: 400 20px/25px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 2px solid #c6c9cc;
+	border-radius: 5px;
+	display: block;
+	margin-left: 10px 0 20px 0;
+
+}
+
+textarea {
+	height: 200px;
+	width: 400px;
+}
+
+
+.contact-form {
+	max-width: 400px;
+	width: 400px;
+	text-align: left;
+
+}
+
+.formLeft {
+	display: inline-block;
+	position: absolute;
+	left: 15vw;
+	border: 2px solid #c6c9cc;
+	top: 60vh;
+}
+
+.formRight {
+	display: inline-block;
+	position: absolute;
+	right: 15vw;
+	border: 2px solid #c6c9cc;
+	top: 60vh;
+}
+
+p {
+	padding-left: 40vw;
+	position: absolute;
+}
