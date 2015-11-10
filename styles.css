@@ -17,21 +17,21 @@ body {
 .btn-high {
 	display: inline-block;
 	position: absolute;
-	top: 45px;
-	right: 45px;
+	top: 4em;
+	right: 4em;
 	text-align: center;
 	vertical-align: middle;
-	letter-spacing: 8px;
+	letter-spacing: 1em;
 }
 
 .btn-low {
 	display: inline-block;
 	position: absolute;
-	top: 375px;
-	right: 45px;
+	top: 20em;
+	right: 4em;
 	text-align: center;
 	vertical-align: middle;
-	letter-spacing: 8px;
+	letter-spacing: 1em;
 }
 
 a {
@@ -97,23 +97,18 @@ a:active {
 .menu li{
 	display: inline-block;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: 400;
-	letter-spacing: 5px;
+	letter-spacing: .5em;
 	text-transform: uppercase;
-	border-radius: 5px;
-	padding-right: 60px;
+	padding-right: 2em;
+	padding-top: 1em;
 
 }
-
-.menu p {
-	padding-left: 50px;
-}
-
 
  h2 {
-	font-size: 200px;
-	letter-spacing: 5px;
+	font-size: 8em;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	font-weight: 400;
 	border-bottom: solid 5px;
@@ -140,7 +135,6 @@ input, select, textarea {
 	border: 2px solid #c6c9cc;
 	border-radius: 5px;
 	display: block;
-	margin-left: 10px 0 20px 0;
 
 }
 
@@ -151,8 +145,8 @@ textarea {
 
 
 .contact-form {
-	max-width: 400px;
-	width: 400px;
+	max-width: 10em;
+	width: 8em;
 	text-align: left;
 
 }
