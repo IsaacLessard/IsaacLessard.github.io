@@ -166,6 +166,17 @@ h3 {
 	float: left;
 }
 
+.mainImg {
+	width: 13em;
+	height: 13em;
+}
+
 .circles {
 	margin: 0 auto;
+}
+
+.descriptions {
+	position: absolute;
+	top: 40vh;
+
 }
