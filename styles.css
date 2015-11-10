@@ -85,7 +85,7 @@ a:active {
 
 .hero {
 	margin: 10vh 10vw 0 60vw;
-	text-align: center;
+
 }
 
 .menu {
@@ -94,7 +94,7 @@ a:active {
 
 }
 
-.menu div{
+.menu li{
 	display: inline-block;
 	text-decoration: none;
 	font-size: 30px;
