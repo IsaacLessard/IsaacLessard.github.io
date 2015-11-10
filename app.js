@@ -23,4 +23,8 @@ $( document ).ready(function() {
 			color: 'black'
 		});
 	});
+
+  $('.circleNav').mouseenter(function)_{
+    
+  }
 });

@@ -59,7 +59,7 @@ a:active {
 .about {
 	background-color: hsla(240, 100%, 50%, .5);
 }
-
+/*
 .about img, .future img {
 	width: 25em;
 	height: 25em;
@@ -67,7 +67,7 @@ a:active {
 	border-radius: 500px;
 	float: left;
 	position: absolute;
-}
+}*/
 
 .future {
 	background-color: hsla(25, 100%, 50%, .75);
@@ -122,51 +122,6 @@ a:active {
 .hero a {
 	color: white;
 	text-decoration:none;
-}
-
-
-/*
-====================
-FORM
-====================
-*/
-
-
-input, select, textarea {
-	font: 400 20px/25px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	border: 2px solid #c6c9cc;
-	border-radius: 5px;
-	display: block;
-
-}
-
-textarea {
-	height: 200px;
-	width: 400px;
-}
-
-
-.contact-form {
-	max-width: 10em;
-	width: 8em;
-	text-align: left;
-
-}
-
-.formLeft {
-	display: inline-block;
-	position: absolute;
-	left: 15vw;
-	border: 2px solid #c6c9cc;
-	top: 60vh;
-}
-
-.formRight {
-	display: inline-block;
-	position: absolute;
-	right: 15vw;
-	border: 2px solid #c6c9cc;
-	top: 60vh;
 }
 
 p {
@@ -225,4 +180,15 @@ h3 {
 
 .sectionHead {
 	text-align: center;
+}
+.circImg {
+	width: 10em;
+	height: 10em;
+	display: inline-block;
+	border-radius: 10em;
+	float: left;
+}
+
+.circles {
+	margin: 0 auto;
 }
