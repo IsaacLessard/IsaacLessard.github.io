@@ -90,9 +90,10 @@ a:active {
 }
 
 .menu {
-	padding-top: 25vh;
+	padding-top: 20vh;
 	text-align: center;
 	float: right;
+	width: 100vw;
 
 
 }
