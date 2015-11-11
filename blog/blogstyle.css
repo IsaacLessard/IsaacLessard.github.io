@@ -51,9 +51,12 @@ h1 {
 }
 
 .teaser {
-  margin-top: 6em;
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.mainTeaserHeading {
+  padding-top: 1em;
 }
 
 .bigOne {
@@ -62,8 +65,19 @@ h1 {
   font-family:
 }
 
+.blogImg {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blogText {
+  width: 40%;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-device-width: 480px) {
-p { font-size: 4em; 
+p { font-size: 4em;
 }
 }
