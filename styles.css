@@ -178,7 +178,10 @@ h3 {
 .descriptions {
 	position: absolute;
 	top: 40vh;
+}
 
+.descItem {
+		display: none;
 }
 
 .circImg:hover {
@@ -188,6 +191,10 @@ h3 {
 
 .ungrey {
 	opacity: 1;
+}
+
+.display {
+	display: inline-block;
 }
 
 
