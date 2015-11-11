@@ -11,10 +11,19 @@ body {
 	position: relative;
 }
 
+.jumboLeft {
+	width: 100vw;
+	height: 100vh;
+	float: right;
+	display: inline-block;
+	font-family: "Futura", Courier, monospace;
+	position: relative;
+}
+
 .btn-high {
 	display: inline-block;
 	position: absolute;
-	top: 4em;
+	top: 5em;
 	right: 4em;
 	text-align: center;
 	vertical-align: middle;
@@ -24,8 +33,28 @@ body {
 .btn-low {
 	display: inline-block;
 	position: absolute;
-	top: 4em;
+	top: 5em;
 	left: 4em;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 1em;
+}
+
+.btn-low2 {
+	display: inline-block;
+	position: absolute;
+	top: 5em;
+	left: 14em;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 1em;
+}
+
+.btn-high2 {
+	display: inline-block;
+	position: absolute;
+	top: 5em;
+	right: 14em;
 	text-align: center;
 	vertical-align: middle;
 	letter-spacing: 1em;
@@ -35,12 +64,12 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: hsl(178, 100%, 44%);
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 2px 2px black;
 }
 
 
 .about {
-	background-color: hsla(25, 100%, 50%, .75);
+	background-color: hsla(2, 100%, 50%, .75);
 }
 
 .future {
