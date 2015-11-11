@@ -450,15 +450,6 @@ body {
 	position: relative;
 }
 
-.jumboLeft {
-	width: 100vw;
-	height: 100vh;
-	float: right;
-	display: inline-block;
-	font-family: "Futura", Courier, monospace;
-	position: relative;
-}
-
 .btn {
   display: inline-block;
   text-align: center;
@@ -470,14 +461,6 @@ body {
 	background-color: hsla(2, 100%, 50%, .75);
 }
 
-.future {
-	background-color: hsla(25, 100%, 50%, .75);
-}
-
-.contact {
-	background-color: hsla(120, 10%, 50%, .75);
-}
-
 .main {
 	background: url(assets/images/prairie.jpg);
 
@@ -487,27 +470,6 @@ body {
 .hero {
 	margin: 10vh 10vw 0 60vw;
 	float: right;
-
-}
-
-.menu {
-	padding-top: 20vh;
-	text-align: center;
-	float: left;
-	width: 100vw;
-
-
-}
-
-.menu li{
-	display: inline-block;
-	text-decoration: none;
-	font-size: 2em;
-	font-weight: 400;
-	letter-spacing: .5em;
-	text-transform: uppercase;
-	padding-right: 2em;
-	padding-top: 1em;
 
 }
 
@@ -636,7 +598,12 @@ h4 {
 	position: relative;
 }
 
+.75wrap {
+  height: 75vh;
+}
+
 .blurb {
+  height: 75%
 	width: 60%;
 	margin: 0 auto;
 	font-weight: 200;
@@ -656,7 +623,7 @@ h4 {
 }
 
 .half {
-	height: 50vh;
+	height: 90vh;
 }
 
 .quart {
@@ -672,17 +639,21 @@ h4 {
 }
 
 .nav {
-  height: 20vh;
+  height: 25%;
   background-color: hsla(2, 100%, 50%, .75);
+  bottom: 0;
 }
 
 .nav li{
   list-style: none;
-  padding-bottom: 2em;
 
 }
 
-.leftNav {
+.nav li:first-child{
+  padding-bottom: 3em;
+}
+
+.leftNav{
   float: left;
 }
 
