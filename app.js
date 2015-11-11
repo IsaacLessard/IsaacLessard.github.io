@@ -12,11 +12,6 @@ $( document ).ready(function() {
         }
       }
     });
-    // $('.main').load(function(){
-		//     $('.circleNav').fadeIn("slow", function(){
-		// 	       $('.circleNav').addClass("ungrey");
-	  //    });
-    //  });
   });
 });
 
@@ -47,9 +42,8 @@ $('.ocean').hover(function(){
   $('.forForest').removeClass('display');
 });
 
-$('.circDesc').hover(function(){
+$('.circImg').hover(function(){
 		$(this).find('h4').fadeIn("slow", function(){
 			$(this).toggleClass("ungrey");
 		});
 	});
-var circleImage = document.getElementsByClassName('circImg');
