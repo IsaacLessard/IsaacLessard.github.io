@@ -685,6 +685,8 @@ h4 {
 	width: 40%;
 	margin: 0 auto;
 	font-weight: 200;
+	text-align: center;
+	padding-top: 2em;
 }
 
 .blurb h3 {
@@ -692,7 +694,6 @@ h4 {
 }
 
 .blurb p {
-	text-align: center;
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: .5em;
