@@ -52,4 +52,12 @@ h1 {
 
 .teaser {
   margin-top: 6em;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bigOne {
+  font-weight: 400;
+  font-size: 6em;
+  font-family:
 }
