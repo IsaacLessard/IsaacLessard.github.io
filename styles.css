@@ -98,10 +98,6 @@ body {
 	text-decoration:none;
 }
 
-p {
-	padding-left: 40vw;
-	position: absolute;
-}
 .heroDisc {
 	float: right;
 	margin-right: 2em;
@@ -172,32 +168,55 @@ h3 {
 
 .circles {
 	margin: 0 auto;
-	width: 90%;
-}
-
-.descriptions {
-	position: absolute;
-	top: 40vh;
+	width: 20%;
+	float: left;
 }
 
 .descItem {
-		display: none;
+		font-size: 2em;
+		float: right;
+		width: 70%;
 }
 
 .circImg:hover {
-	width: 11em;
-	height: 11em;
+	opacity: 0.5;
 }
 
 .ungrey {
 	opacity: 1;
 }
 
+h5 {
+	font-size: 4em;
+}
+
+.forForest, .forIsaac, .forOcean {
+	display: none;
+}
+
 .display {
 	display: inline-block;
 }
 
+h4 {
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: .2em;
+}
 
-h5 {
-	font-size: 4em;
+.forest, .isaac, .ocean {
+	position: relative;
+}
+
+
+.grey {
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	left: .9em;
+	top: 1.25em;
+}
+
+.ungrey {
+	opacity: 1;
 }

@@ -20,14 +20,36 @@ $( document ).ready(function() {
   });
 });
 
-var $para = "<p>does it work</p>";
-
-$('.circImg').hover(function(){
-  $(this).next().text('Get amongst it');
-});
-
-var circleImage = document.getElementsByClassName('circImg');
-
 function resetIt(event){
+  $('.forForest').style.display = "none";
+  $('.forIsaac').style.display = "none";
+  $('.forOcean').style.display = "none";
 
 }
+
+$('.forest').hover(function(){
+  $('.forForest').addClass('display');
+  $('.forIsaac').removeClass('display');
+  $('.forOcean').removeClass('display');
+});
+
+
+$('.isaac').hover(function(){
+  $('.forIsaac').addClass('display');
+  $('.forOcean').removeClass('display');
+  $('.forForest').removeClass('display');
+});
+
+
+$('.ocean').hover(function(){
+  $('.forOcean').addClass('display');
+  $('.forIsaac').removeClass('display');
+  $('.forForest').removeClass('display');
+});
+
+$('.circDesc').hover(function(){
+		$(this).find('h4').fadeIn("slow", function(){
+			$(this).toggleClass("ungrey");
+		});
+	});
+var circleImage = document.getElementsByClassName('circImg');
