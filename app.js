@@ -12,19 +12,10 @@ $( document ).ready(function() {
         }
       }
     });
+    // $('window').load(function(){
+		// $('.circleNav').fadeIn("slow", function(){
+		// 	$(this).addClass("ungrey");
+	  //    });
+    //  });
   });
-  // $('.menu div').mouseenter(function(){
-	// 	$(this).animate({
-	// 		color: '#668888'
-	// 	});
-	// });
-	// $('.menu div').mouseleave(function(){
-	// 	$(this).animate({
-	// 		color: 'black'
-	// 	});
-	// });
-
-  // $('.circleNav').mouseenter(function){
-  //
-  // }
 });
