@@ -682,11 +682,12 @@ h4 {
 }
 
 .blurb {
-	width: 40%;
+	width: 60%;
 	margin: 0 auto;
 	font-weight: 200;
 	text-align: center;
 	padding-top: 2em;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .blurb h3 {
@@ -694,7 +695,7 @@ h4 {
 }
 
 .blurb p {
-	font-size: 1em;
+	font-size: 2em;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 }
