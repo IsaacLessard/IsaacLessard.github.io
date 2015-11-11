@@ -670,10 +670,6 @@ h4 {
 	position: relative;
 }
 
-.intro  {
-	height: 50vh;
-}
-
 .blurb {
 	width: 60%;
 	margin: 0 auto;
@@ -695,6 +691,10 @@ h4 {
 
 .half {
 	height: 50vh;
+}
+
+.quart {
+	height: 25vh;
 }
 
 
