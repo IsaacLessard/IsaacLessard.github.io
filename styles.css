@@ -434,7 +434,6 @@ MAIN STYLING
 
 a, a:visited {
 	text-decoration: none;
-	color: black;
 }
 
 body {
@@ -498,13 +497,6 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	letter-spacing: 1em;
-}
-
-.colorful {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: hsl(178, 100%, 44%);
-	text-shadow: 2px 2px black;
 }
 
 
@@ -636,9 +628,10 @@ h3 {
 }
 
 .circles {
+	display: inline-block;
 	margin: 0 auto;
 	width: 20%;
-	float: left;
+
 }
 
 .descItem {
@@ -698,4 +691,16 @@ h4 {
 	font-size: 2em;
 	text-transform: uppercase;
 	letter-spacing: .5em;
+}
+
+.half {
+	height: 50vh;
+}
+
+
+.colorful {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px black;
 }
