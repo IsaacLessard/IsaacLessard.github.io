@@ -461,32 +461,10 @@ body {
 
 .btn {
   display: inline-block;
-	position: absolute;
   text-align: center;
 	vertical-align: middle;
 	letter-spacing: 1em;
 }
-
-.btn-high {
-	right: 4em;
-  top: 1em;
-}
-
-.btn-low {
-	top: 1em;
-	left: 4em;
-}
-
-.btn-low2 {
-	top: 1em;
-	left: 14em;
-}
-
-.btn-high2 {
-	top: 1em;
-	right: 14em;
-}
-
 
 .about {
 	background-color: hsla(2, 100%, 50%, .75);
@@ -696,4 +674,22 @@ h4 {
 .nav {
   height: 20vh;
   background-color: hsla(2, 100%, 50%, .75);
+}
+
+.nav li{
+  list-style: none;
+  padding-bottom: 2em;
+
+}
+
+.leftNav {
+  float: left;
+}
+
+.rightNav {
+  float: right;
+}
+
+@media screen and (max-device-width: 480px) {
+.btn { font-size: 3em;
 }
