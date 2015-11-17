@@ -508,8 +508,8 @@ body {
 .circleNav {
 	border: 2px solid white;
 	border-radius: 2em;
-	width: 1em;
-	height: 1em;
+	width: 3em;
+	height: 3em;
 	font-weight: 800;
 	text-align: center;
 	font-size: 6em;
@@ -545,7 +545,7 @@ h3 {
 	width: 10em;
 	height: 10em;
 	display: inline-block;
-	border-radius: 10em;
+	border-radius: 100%;
 	float: left;
 	margin-left: .25em;
 }
