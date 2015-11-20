@@ -1,5 +1,11 @@
 #FIARY
-## A web app that combines a food diary and a correlation algorithm that tells if you may have a hidden food allergy. 
+## A web app
+```
+FIARY combines a food diary with a a health tracker. By inputing each meal, its ingredients, and when you get sick, FIARY helps by computing which ingredients you get sick after eating. This helps with finding food allergies, and overall tracking health. Users can discover hidden food allergies or if track if their children have any allergies.
+
+FIARY combines three main functions - the diary, the ability to correlate symptoms with actual ingredients, and the ability to search for recipes. 
+```
+
 
 ##This app was built with
 ```
@@ -18,3 +24,12 @@ local storage
 ```
 Along with gulp, gulp-eslint and gulp-sass were used 
 ```
+##HOW TO USE
+```
+From the front page, click sign up. After creating your username and password, log in. From the main page, you can create entries, search for recipes, or look at your correlations.
+```
+##CURRENT BUGS
+```
+- to view correlations, the page needs to be refreshed and then renavigated to history
+- 
+
