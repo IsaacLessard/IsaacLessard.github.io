@@ -1,6 +1,12 @@
 
-Portfolio website for isaac.tech
+#Personal Portfolio Website
 
-If you have recommendations, let me know
+## Projects
+```
+-to view projects, click the application folder
+```
+##If you have recommendations, let me know
+
+##Cheers for stopping by!
 
 
