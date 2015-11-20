@@ -119,7 +119,6 @@ var $diary = JSON.parse(localStorage.getItem('diary'));
         $('.diary').addClass('display');
         $('.recipes').removeClass('display');
         $('.entry').removeClass('display');
-        displayCorrelations();
       });
 
 

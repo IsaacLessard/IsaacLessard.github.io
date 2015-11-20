@@ -162,7 +162,7 @@ function tableFor(food, sick){
 
   // appends children to display correlations
   function displayCorrelations(){
-    
+
     corMapper();
       var $corsLayout = document.getElementById('allCorrelations');
       for (h=0;h<symptomArray.length;h++){
