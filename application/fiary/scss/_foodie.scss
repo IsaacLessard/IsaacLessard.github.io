@@ -1,0 +1,58 @@
+
+/*
+=================
+FOODIE STYLINGS
+=================
+*/
+
+.menuSwitch {
+  width: 33%;
+  height:3em;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#entry {
+  background-color: hsla(170, 55%, 55%, 1);
+}
+
+#recipes {
+  background-color: hsla(96, 85%, 55%, 1);
+}
+
+#diary {
+  background-color: hsla(335, 85%, 45%, 1);
+}
+
+.allRecipes {
+  width: 80vw;
+}
+
+.recipeItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipeShow {
+  padding: 1em;
+  width: 10vw;
+  img {
+    width: 100%;
+  }
+
+}
+
+.journalItem {
+  padding-left: 1em;
+  width: 20%;
+}
+
+.nextBtn {
+  font-size: 2em;
+  letter-spacing: 0.25em;
+  border: 2px solid black;
+  height: 40%;
+  width: 5em;
+
+}

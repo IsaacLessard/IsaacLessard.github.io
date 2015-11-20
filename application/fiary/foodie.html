@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="./src/app/jquery-ui.min.js"></script>
+	<script src="./src/app/jquery.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Nova+Round' rel='stylesheet' type='text/css'>
+    <title>..Fiary..</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav reverseColor">
+          <div>
+            <a href="index.html"><h2>FIARY</h2></a>
+          </div>
+          <ul>
+            <li>
+              <a href="index.html">Log Out</a>
+            </li>
+          </ul>
+      </div>
+    </header>
+    <main>
+
+
+      <header>
+        <h2>Welcome.</h2>
+        <div class="correlations" id="corDisplay"></div>
+        <div class="row">
+          <div class="menuSwitch" id="entry">Entry</div>
+          <div class="menuSwitch" id="recipes">Recipes</div>
+          <div class="menuSwitch" id="diary">Stats</div>
+        </div>
+      </header>
+
+      <div class="entry">
+        <h2>This is entry</h2>
+
+
+        <h3>Add Entry</h3>
+
+        <fieldset class="addEntry">
+          <label>Food Name</label>
+          <input type="text" id="foodName" placeholder="tomato soup">
+          <label>Ingredients</label>
+          <input type="text" id="ingredients" placeholder="tomato,basil,milk">
+          <label>Sickness</label>
+          <input type="text" id="initialSick" placeholder="tomato,basil,milk">
+          <button type="submit" id="foodSubmit">Submit</button>
+        </fieldset>
+
+        <fieldset class="addSymptoms">
+          <label>Symptoms</label>
+          <input type="text" id="sickName" placeholder="headache, stomachache, gas">
+          <label>Time of Symptoms</label>
+          <select>
+            <option>within 1 hour of eating</option>
+            <option>within 2 hours of eating</option>
+            <option>within 3 hours of eating</option>
+            <option>within 4 hours of eating</option>
+          </select>
+          <button type="submit" id="sickSubmit">Submit</button>
+        </fieldset>
+        <div id="entryMade"></div>
+      </div>
+
+      <div class="recipes">
+        <h2>This is recipes</h2>
+        <h3>Search for a recipe</h3>
+        <fieldset class="search">
+          <input type="text" id="recipeSearch" placeholder="'gluten free','cucumber','pasta'">
+          <button type="submit" id="recipeSearchButton">Search</button>
+        </fieldset>
+
+        <div class="allRecipes">
+          <div class="recipeItems" id="displayRecipes"></div>
+          <div class="nextBtn" id="next">Random Recipes</div>
+        </div>
+
+      </div>
+
+      <div class="diary">
+        <h2>Statistics</h2>
+
+        <div class="corSyles" id="allCorrelations"></div>
+
+        <button type="button" class="btn" id="histShow">Click to display all history</button>
+        <ul id="historyDisplay"></ul>
+        <fieldset class="search" id="diarySearch">
+          <label> Enter in a food name to search for entries</label>
+          <input type="search" id="historySearchField" placeholder="Enter item name">
+          <button type="submit" id="historySearchBtn">Search</button>
+        </fieldset>
+
+      </div>
+
+    </main>
+    <footer>
+      <script src="./src/app/main.js"></script>
+      <script src="./src/app/foodie.js"></script>
+      <script src="./src/app/recipe.js"></script>
+    </footer>
+  </body>
+</html>
