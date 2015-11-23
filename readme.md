@@ -3,10 +3,10 @@
 
 ## Projects
 ```
--to view projects, click the application folder
+- currently projects are unviewable 
 ```
 ##If you have recommendations, let me know
 
-##Cheers for stopping by!
+#Thanks for stopping by!
 
 
