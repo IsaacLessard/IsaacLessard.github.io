@@ -1,10 +1,7 @@
 
 #Personal Portfolio Website
-
-## Projects
 ```
-- Click 'fiary' to view the food diary project, a project I am currently working on
-- Eats is a school assignment 
+Work in progress. Currently refactoring, removing old code, and converting to an Angular site.
 ```
 ##If you have recommendations, let me know
 
