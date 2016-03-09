@@ -448,6 +448,11 @@ body {
 	display: inline-block;
 	font-family: "Futura", Courier, monospace;
 	position: relative;
+  background: url(assets/images/prairie.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn {
@@ -459,12 +464,6 @@ body {
 
 .about {
 	background-color: hsla(2, 100%, 50%, .75);
-}
-
-.main {
-	background: url(assets/images/prairie.jpg);
-
-
 }
 
 .hero {
@@ -488,8 +487,10 @@ body {
 }
 
 .heroDisc {
-	float: right;
-	margin-right: 2em;
+  font-size: 35px;
+  font-weight: 100;
+	float: left;
+	margin: 1em;
 }
 
 .btn-sm {
@@ -600,9 +601,9 @@ h4 {
 	position: relative;
 }
 
-.75wrap {
+/*.75wrap {
   height: 75vh;
-}
+}*/
 
 .blurb {
   height: 75%
@@ -644,6 +645,23 @@ h4 {
   height: 25%;
   background-color: hsla(2, 100%, 50%, .75);
   bottom: 0;
+}
+
+.selector {
+  color: white;
+  font-size: 90px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.selector li {
+  margin: 75px;
+  display: inline-block;
+  text-align: center;
+}
+
+.selector a:visited {
+  color: white;
 }
 
 .nav li{
