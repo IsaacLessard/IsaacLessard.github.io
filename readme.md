@@ -5,6 +5,5 @@ Work in progress. Currently refactoring, removing old code, and converting to an
 Check it out live ----
 ```
 [View Live](http://www.isaac.tech)
-##If you have recommendations, let me know
 
 #Thanks for stopping by!
