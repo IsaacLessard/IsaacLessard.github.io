@@ -462,12 +462,8 @@ body {
 	letter-spacing: 1em;
 }
 
-.about {
-	background-color: hsla(2, 100%, 50%, .75);
-}
-
 .hero {
-	margin: 10vh 10vw 0 60vw;
+	margin: 0 10vw 0 60vw;
 	float: right;
 
 }
@@ -682,4 +678,12 @@ h4 {
 
 @media screen and (max-device-width: 480px) {
 .btn { font-size: 3.3em;
+}
+
+
+.aboutSection {
+  width: 200px;lk,.
+  height: 200px;
+  color: red;
+	background-color: hsla(2, 100%, 50%, .75);
 }
