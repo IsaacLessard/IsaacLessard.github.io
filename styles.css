@@ -185,3 +185,32 @@ li {
 	display: inline-block;
 	border: 2px solid black;
 }
+
+.circMenu {
+	display: none;
+}
+
+@media (max-width: 630px) {
+	h3 {
+		font-size: 2em;
+	}
+	.navMenu {
+		display: none;
+	}
+	.circMenu {
+		display: block;
+		position: absolute;
+		right: 23px;
+		top: 0px;
+		width: 75px;
+		height: 75px;
+		border: 2px solid black;
+		border-radius: 50%;
+	}
+	.circPlus {
+		font-size: 4em;
+		position: absolute;
+		right: 25%;
+		bottom: 10%;
+	}
+}
