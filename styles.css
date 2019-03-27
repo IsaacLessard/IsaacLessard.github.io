@@ -1,21 +1,21 @@
-
 /*
 =============
 MAIN STYLING
 =============
 */
 
-a, a:visited {
+a,
+a:visited {
 	text-decoration: none;
 }
 
 body {
-	margin: 0 auto;
-	padding: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 	font-family: 'Ubuntu', Helvetica, sans-serif;
 }
 
- h2 {
+h2 {
 	font-size: 8em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -24,17 +24,17 @@ body {
 }
 
 ul {
-  font-family: 'Permanent Marker', cursive;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .circleNav {
 	border: 2px solid white;
-	border-radius: 2em;
-  width: 1em;
-	height: 1em;
+	border-radius: 200px;
+	width: 200px;
+	height: 200px;
 	font-weight: 800;
 	text-align: center;
-	font-size: 6em;
+	font-size: 100px;
 	padding: 0;
 	margin: 0 auto;
 }
@@ -66,15 +66,10 @@ h3 {
 	margin-left: .25em;
 }
 
-.mainImg {
-	width: 13em;
-	height: 13em;
-}
-
 .descItem {
-		font-size: 2em;
-		float: right;
-		width: 70%;
+	font-size: 2em;
+	float: right;
+	width: 70%;
 }
 
 .grey {
@@ -85,7 +80,9 @@ h5 {
 	font-size: 4em;
 }
 
-.forForest, .forIsaac, .forOcean {
+.forForest,
+.forIsaac,
+.forOcean {
 	display: none;
 }
 
@@ -141,44 +138,44 @@ h4 {
 }
 
 .navbar {
-  position: fixed;
-  background-color: rgba(255,255,255,0.5);
-  top: 0;
-  margin: 5px;
-  width: 100%;
-  height: 100px;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.5);
+	top: 0;
+	margin: 5px;
+	width: 100%;
+	height: 100px;
 }
 
 ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 li {
-  display: inline-block;
-  padding: 20px;
+	display: inline-block;
+	padding: 20px;
 }
 
 .heroDisc {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-  width: 50%;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 50%;
 }
 
 .jumbo {
-  width: 100%;
-  height: 70vh;
-  max-height: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top: 75px;
-  background-image: url("./assets/images/work.jpg");
-  background-size: cover;
+	width: 100%;
+	height: 70vh;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 75px;
+	background-image: url("./assets/images/work.jpg");
+	background-size: cover;
 }
 
 .card {
@@ -194,9 +191,11 @@ li {
 	h3 {
 		font-size: 2em;
 	}
+
 	.navMenu {
 		display: none;
 	}
+
 	.circMenu {
 		display: block;
 		position: absolute;
@@ -207,10 +206,50 @@ li {
 		border: 2px solid black;
 		border-radius: 50%;
 	}
+
 	.circPlus {
 		font-size: 4em;
 		position: absolute;
 		right: 25%;
 		bottom: 10%;
 	}
+}
+
+/* NEW CSS */
+/* TODO: Delete unused css above */
+
+.page {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 200;
+	font-size: 4em;
+	padding-top: 4em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title p {
+	background: rgba(0, 0, 0, .1);
+	margin: 0;
+}
+
+.title ul {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	background: rgba(0, 0, 0, .1);
+	position: relative;
+	font-size: .5em;
+}
+
+.mainImg {
+	background-image: url("./assets/images/simon-matzinger-285885-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
