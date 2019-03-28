@@ -253,3 +253,25 @@ li {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+.about {
+	background: skyblue;
+}
+
+.about * {
+	margin: 0 auto;
+}
+
+.about h3 {
+	text-align: center;
+}
+
+.aboutImg {
+	width: 10em;
+	height: 10em;
+	border-radius: 20em;
+	/* background-image: url("./assets/images/dumbFace.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
