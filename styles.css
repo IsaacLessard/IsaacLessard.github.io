@@ -254,23 +254,31 @@ li {
 	background-position: center center;
 }
 
-.about {
-	background: skyblue;
-}
-
 .about * {
 	margin: 0 auto;
+	text-align: center;
 }
 
-.about h3 {
-	text-align: center;
+.about p {
+	font-size: 2em;
+	letter-spacing: .25em;
+	padding: 1em;
+}
+
+.about ul {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	position: relative;
+	font-size: 2em;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	background: hsl(178, 100%, 44%);
 }
 
 .aboutImg {
 	width: 10em;
 	height: 10em;
 	border-radius: 20em;
-	/* background-image: url("./assets/images/dumbFace.jpg"); */
+	background-image: url("./assets/images/dumbFace.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
